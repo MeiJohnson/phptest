@@ -12,4 +12,5 @@
             $date = Carbon::now() -> format('j.m.Y h:i');
             echo '<h2>' . $date . '</h2>'; ?>
     </body>
+    <input type='text'>
 </html>    
