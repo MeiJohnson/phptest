@@ -7,5 +7,7 @@
 <?php
     require 'vendor/autoload.php';
     use Carbon\Carbon;
-    echo Carbon::now() -> format('j.m.Y h:i'); ?>
+    $data = Carbon::now() -> format('j.m.Y h:i');
+    echo '<h2>' .$date. '</h2>';
+    ?>
 </html>
