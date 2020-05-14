@@ -2,6 +2,7 @@
     <head>
         <title>My app</title>
     </head>
+    <input type='text'>
     <script>
         {
             document.querySelector('input')
@@ -13,6 +14,7 @@
             });
         }
     </script>
+    <br/>
     <body> 
         <?php
             require 'vendor/autoload.php';
@@ -21,5 +23,4 @@
             $date = Carbon::now() -> format('j.m.Y h:i');
             echo '<h2>' . $date . '</h2>'; ?>
     </body>
-    <input type='text'>
 </html>    
