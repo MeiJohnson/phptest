@@ -2,7 +2,7 @@
     <head>
         <title>My app</title>
     </head>
-    <h2>Конвертер валют</h2>
+    <h2>Конвертер долларов в рубли</h2>
     <input type='text'>
     <h5></h5>
     <script>
