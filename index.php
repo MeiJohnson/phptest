@@ -10,4 +10,5 @@
     $data = Carbon::now() -> format('j.m.Y h:i');
     echo '<h2>' .$data. '</h2>';
     ?>
+</body>
 </html>
