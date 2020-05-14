@@ -8,6 +8,6 @@
     require 'vendor/autoload.php';
     use Carbon\Carbon;
     $data = Carbon::now() -> format('j.m.Y h:i');
-    echo '<h2>' .$date. '</h2>';
+    echo '<h2>' .$data. '</h2>';
     ?>
 </html>
